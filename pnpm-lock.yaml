@@ -876,6 +876,22 @@ importers:
         specifier: ^6.4.4
         version: 6.4.8
 
+  integrations/famulor:
+    dependencies:
+      '@botpress/client':
+        specifier: workspace:*
+        version: link:../../packages/client
+      '@botpress/sdk':
+        specifier: workspace:*
+        version: link:../../packages/sdk
+      axios:
+        specifier: ^1.13.1
+        version: 1.13.6
+    devDependencies:
+      '@botpress/cli':
+        specifier: workspace:*
+        version: link:../../packages/cli
+
   integrations/feature-base:
     dependencies:
       '@botpress/client':
